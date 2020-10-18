@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: none;
+
+}
+body{
+    background-image:url(./nice-island-wallpaper-full-hd_040152396.jpg) ;
+}
+.container1{
+    margin: 100px auto;
+    width: 400px;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 0px black;
+    background: transparent ;
+  
+}
+
+.container1 h1{
+    opacity: 1;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase ;
+    color:black;
+
+}
+
+.register input{
+    opacity: 1;
+    background: transparent ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 15%;
+    text-indent: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition:  0.4s ease-in-out;
+    width: 75%;
+    color: black;
+}
+.register input:focus{
+    border-bottom: 1.5px solid red;
+}
+.register input[class="fname"]{
+    display: inline-block;
+    margin-left: 15%;
+    width: 30%;
+    text-indent: 12px;
+    
+}
+.register input[class="lname"]{
+    display: inline-block;
+    margin-left: 10%;
+    width: 35%;
+}
+.register input[type="submit"]{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background-color: blue;
+    text-align:center;
+    width: 25%;
+    margin-left: 35%;
+    margin-bottom: 25px;
+    color: white;
+}
+
